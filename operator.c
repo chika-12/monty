@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * f_add - function that adds the top two elements of the stack
- * @head: double pointer head to the stack
+ * f_add - add the  two top elements of the stack
+ * @head: head to the stack
  * @counter: line count
  *
- * Return: nothing
+ * Return: void
  */
 void f_add(stack_t **head, unsigned int counter)
 {
@@ -34,11 +34,11 @@ void f_add(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_sub - function that substracts nodes
- * @head: double head pointer to the stack
- * @counter: line count
+ * f_sub - substracts nodes
+ * @head: pointer to the stack
+ * @counter: counter
  *
- * Return: nothing
+ * Return: void
  */
 void f_sub(stack_t **head, unsigned int counter)
 {

@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
-* free_stack - function
+* free_stack - frees a stack
 * @head: head
 *
 * Return: void
@@ -20,7 +20,7 @@ void free_stack(stack_t *head)
 }
 
 /**
-* f_stack - function that prints the top
+* f_stack - function that prints the to stack
 * @head: head stack
 * @counter: count
 *
