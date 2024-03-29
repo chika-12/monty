@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * f_pop - function that prints the top of the stack
- * @head: double head pointer to the stack
- * @counter: line count
+ * f_pop - prints the top of the stack
+ * @head: double
+ * @counter: count
  *
- * Return: nothing
+ * Return: void
  */
 void f_pop(stack_t **head, unsigned int counter)
 {
@@ -25,11 +25,11 @@ void f_pop(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_pint - function that prints the top of the stack
- * @head: double head pointer to the stack
- * @counter: line count
+ * f_pint - prints the top of the stack
+ * @head: pointer to the stack
+ * @counter: count
  *
- * Return: nothing
+ * Return: void
  */
 void f_pint(stack_t **head, unsigned int counter)
 {
@@ -45,11 +45,11 @@ void f_pint(stack_t **head, unsigned int counter)
 }
 
 /**
- * f_nop - function that does nothing
- * @head: double head pointer to the stack
- * @counter: line count
+ * f_nop - does nothing
+ * @head: double head pointer
+ * @counter: count
  *
- * Return: nothing
+ * Return: void
  */
 void f_nop(stack_t **head, unsigned int counter)
 {

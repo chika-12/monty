@@ -1,10 +1,10 @@
 #include "monty.h"
 
 /**
-* free_stack - function that frees a doubly linked list
-* @head: head pointer to the stack
+* free_stack - function
+* @head: head
 *
-* Return: nothing
+* Return: void
 */
 void free_stack(stack_t *head)
 {
@@ -21,10 +21,10 @@ void free_stack(stack_t *head)
 
 /**
 * f_stack - function that prints the top
-* @head: head of stack
-* @counter: line count
+* @head: head stack
+* @counter: count
 *
-* Return: nothing
+* Return: void
 */
 void f_stack(stack_t **head, unsigned int counter)
 {

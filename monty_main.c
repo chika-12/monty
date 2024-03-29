@@ -6,11 +6,11 @@
 bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
- * main - function for monty code interpreter
- * @argc: argument count
- * @argv: argument value
+ * main - code interpreter
+ * @argc: count
+ * @argv: value
  *
- * Return: 0 on success
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {

@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
-* execute - function that executes the opcode
-* @stack: head stack linked list
+* execute - executes the opcode
+* @stack: head
 * @counter: line count
-* @file: pointer to monty file stream
+* @file: pointer
 * @content: line content
 *
-* Return: nothing
+* Return: void
 */
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
